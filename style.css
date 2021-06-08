@@ -2,7 +2,7 @@
   --font-color1: #0687ad;
   --font-color2: #592e83;
   --font-color3: #ffffff;
-  font-family: "Roboto", sans-serif;
+  font-family: roboto-slab, serif;
 }
 
 *,
@@ -66,4 +66,21 @@ body {
 
 .enter-to-win-img {
   margin-top: 70px;
+  margin-bottom: 20px;
+}
+
+.event-info {
+  background-image: url(Background.png);
+  width: 100vw;
+  height: 500px;
+  background-size: cover;
+}
+
+.event-h2 {
+  text-transform: uppercase;
+  font-size: 50px;
+  margin-top: -300px;
+  margin-right: 400px;
+  color: var(--font-color1);
+  letter-spacing: 10px;
 }

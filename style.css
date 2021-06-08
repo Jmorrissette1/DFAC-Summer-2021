@@ -1,7 +1,5 @@
 :root {
   --font-color1: #0687ad;
-  --font-color2: #592e83;
-  --font-color3: #ffffff;
   font-family: roboto-slab, serif;
 }
 
@@ -49,7 +47,8 @@ body {
 .dfca-h2 {
   margin-top: 20px;
   font-size: 50px;
-  letter-spacing: 10px;
+  letter-spacing: 7px;
+  margin-right: 20px;
   color: var(--font-color1);
   text-transform: uppercase;
 }
@@ -72,15 +71,42 @@ body {
 .event-info {
   background-image: url(Background.png);
   width: 100vw;
-  height: 500px;
-  background-size: cover;
+  height: auto;
+  background-size: contain;
 }
 
 .event-h2 {
   text-transform: uppercase;
   font-size: 50px;
-  margin-top: -300px;
+  margin-top: 50px;
+  margin-bottom: 0;
   margin-right: 400px;
   color: var(--font-color1);
-  letter-spacing: 10px;
+  letter-spacing: 7px;
+}
+
+.event-p1 {
+  margin-top: 10px;
+  margin-right: 390px;
+  color: var(--font-color1);
+  font-size: 32px;
+  font: bold;
+}
+
+.event-p2 {
+  font-size: 22px;
+  font: lighter;
+  color: var(--font-color1);
+}
+.event-btn {
+  width: 275px;
+  height: 50px;
+  margin-top: 20px;
+  margin-bottom: 75px;
+  margin-right: 685px;
+  color: #fff;
+  font-size: 16px;
+  font: 600;
+  background-color: var(--font-color1);
+  border: none;
 }

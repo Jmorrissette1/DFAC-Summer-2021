@@ -1,0 +1,69 @@
+:root {
+  --font-color1: #0687ad;
+  --font-color2: #592e83;
+  --font-color3: #ffffff;
+  font-family: "Roboto", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-section {
+  width: 100vw;
+  height: 800px;
+  background-image: url(Hero\ Image.png);
+  background-size: cover;
+}
+
+.dfca-logo {
+  margin-top: 180px;
+}
+
+.dfca-h2 {
+  margin-top: 20px;
+  font-size: 50px;
+  letter-spacing: 10px;
+  color: var(--font-color1);
+  text-transform: uppercase;
+}
+
+.vehicle-purchase-img {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.service-repair-img {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.enter-to-win-img {
+  margin-top: 70px;
+}

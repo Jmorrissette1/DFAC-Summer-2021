@@ -110,3 +110,8 @@ body {
   background-color: var(--font-color1);
   border: none;
 }
+
+.about-section {
+  margin-top: 20px;
+  background-color: var(--font-color1);
+}

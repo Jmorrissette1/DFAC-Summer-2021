@@ -50,9 +50,9 @@ body {
   margin-top: 20px;
   font-size: 60px;
   letter-spacing: 10px;
-  margin-right: 20px;
   color: var(--font-color1);
   text-transform: uppercase;
+  margin-left: 30px;
 }
 
 .vehicle-purchase-img {
@@ -68,6 +68,7 @@ body {
 .enter-to-win-img {
   margin-top: 70px;
   margin-bottom: 20px;
+  width: 1100px;
 }
 
 .event-info {
@@ -82,14 +83,14 @@ body {
   font-size: 50px;
   margin-top: 50px;
   margin-bottom: 0;
-  margin-right: 400px;
+  margin-right: 530px;
   color: var(--font-color1);
   letter-spacing: 7px;
 }
 
 .event-p1 {
   margin-top: 10px;
-  margin-right: 390px;
+  margin-right: 520px;
   color: var(--font-color1);
   font-size: 32px;
   font: bold;
@@ -105,7 +106,7 @@ body {
   height: 50px;
   margin-top: 20px;
   margin-bottom: 75px;
-  margin-right: 685px;
+  margin-right: 815px;
   color: #fff;
   font-size: 16px;
   font: 600;
@@ -121,8 +122,8 @@ body {
 }
 
 .about-text-box {
-  max-width: 1200px;
-  margin-left: 230px;
+  max-width: 1250px;
+  margin-left: 110px;
 }
 
 .about-h2 {

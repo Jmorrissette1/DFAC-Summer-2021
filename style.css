@@ -36,155 +36,158 @@ body {
 
 .hero-section {
   width: 100vw;
-  height: 760px;
-  background-image: url(Hero\ Image.png);
+  height: 760px !important;
+  background-image: url(https://di-uploads-pod14.dealerinspire.com/westhillsautoplex/uploads/2021/06/Hero-Image.png);
   background-size: cover;
 }
 
 .dfca-logo {
-  margin-top: 120px;
-  width: 800px;
+  margin-top: 120px !important;
+  width: 800px !important;
 }
 
 .dfca-h2 {
-  margin-top: 20px;
-  font-size: 60px;
-  letter-spacing: 10px;
+  margin-top: 20px !important;
+  font-size: 60px !important;
+  letter-spacing: 10px !important;
   color: var(--font-color1);
   text-transform: uppercase;
-  margin-left: 30px;
+  margin-left: 30px !important;
 }
 
 .vehicle-purchase-img {
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 50px !important;
+  margin-right: 50px !important;
 }
 
 .service-repair-img {
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 50px !important;
+  margin-right: 50px !important;
 }
 
 .enter-to-win-img {
-  margin-top: 70px;
-  margin-bottom: 20px;
-  width: 1100px;
+  margin-top: 70px !important;
+  margin-bottom: 20px !important;
+  width: 1100px !important;
 }
 
 .event-info {
-  background-image: url(Background.png);
+  background-image: url(https://di-uploads-pod14.dealerinspire.com/westhillsautoplex/uploads/2021/06/Background.png);
   width: 100vw;
   height: auto;
   background-size: contain;
 }
 
 .event-h2 {
-  text-transform: uppercase;
-  font-size: 50px;
-  margin-top: 50px;
-  margin-bottom: 0;
-  margin-right: 530px;
-  color: var(--font-color1);
-  letter-spacing: 7px;
+  text-transform: uppercase !important;
+  font-size: 50px !important;
+  margin-top: 50px !important;
+  margin-bottom: 0 !important;
+  margin-right: 530px !important;
+  color: var(--font-color1) !important;
+  letter-spacing: 7px !important;
 }
 
 .event-p1 {
-  margin-top: 10px;
-  margin-right: 520px;
-  color: var(--font-color1);
-  font-size: 32px;
-  font: bold;
+  margin-top: 10px !important;
+  margin-right: 520px !important;
+  color: var(--font-color1) !important;
+  font-size: 32px !important;
+  font: bold !important;
 }
 
 .event-p2 {
-  font-size: 22px;
-  font: lighter;
-  color: var(--font-color1);
+  font-size: 22px !important;
+  font: lighter !important;
+  color: var(--font-color1) !important;
 }
 .event-btn {
-  width: 275px;
-  height: 50px;
-  margin-top: 20px;
-  margin-bottom: 75px;
-  margin-right: 815px;
+  width: 275px !important;
+  height: 50px !important;
+  margin-top: 20px !important;
+  margin-bottom: 75px !important;
+  margin-right: 815px !important;
   color: #fff;
-  font-size: 16px;
-  font: 600;
-  background-color: var(--font-color1);
-  border: none;
+  font-size: 16px !important;
+  font: 600 !important;
+  background-color: var(--font-color1) !important;
+  border: none !important;
 }
 
 .about-section {
-  margin-top: 20px;
-  background: url(Background-about.png);
-  background-repeat: no-repeat;
-  background-size: cover;
+  margin-top: 20px !important;
+  background: url(https://di-uploads-pod14.dealerinspire.com/westhillsautoplex/uploads/2021/06/Background-about.png);
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
 }
 
 .about-text-box {
-  max-width: 1250px;
-  margin-left: 110px;
+  max-width: 1250px !important;
+  margin-left: 110px !important;
 }
 
 .about-h2 {
-  text-transform: uppercase;
-  font-size: 48px;
-  letter-spacing: 7px;
-  color: var(--font-color2);
+  text-transform: uppercase !important;
+  font-size: 48px !important;
+  letter-spacing: 7px !important;
+  color: var(--font-color2) !important;
 }
 
 .about-p1 {
-  color: var(--font-color2);
-  font-size: 20px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  color: var(--font-color2) !important;
+  font-size: 20px !important;
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
 }
 
 .about-p2 {
   color: var(--font-color2);
-  font-size: 15px;
+  font-size: 15px !important;
+  max-width: 1000px;
 }
 
 .about-p3 {
   color: var(--font-color2);
-  padding-top: 20px;
-  font-size: 20px;
+  padding-top: 20px !important;
+  font-size: 20px !important;
+  max-width: 1000px;
 }
 
 .about-p4 {
   color: var(--font-color2);
-  padding-bottom: 100px;
-  font-size: 20px;
+  padding-bottom: 100px !important;
+  font-size: 20px !important;
+  max-width: 1000px;
 }
 
 .about-list-item {
   color: var(--font-color2);
-  font-size: 15px;
+  font-size: 15px !important;
 }
 
 .footer-img {
-  width: 1000px;
-  margin-top: 50px;
+  width: 1000px !important;
+  margin-top: 50px !important;
 }
 
 .button-box {
   flex-direction: row;
-  margin-left: 20px;
+  margin-left: 20px !important;
 }
 
 .inv-btn {
-  width: 300px;
-  height: 50px;
-  margin-top: 50px;
-  margin-right: 50px;
-  margin-bottom: 20px;
+  width: 300px !important;
+  height: 50px !important;
+  margin-top: 50px !important;
+  margin-right: 50px !important;
+  margin-bottom: 20px !important;
   color: #fff;
-  font-size: 16px;
+  font-size: 16px !important;
   font: 600;
   background-color: var(--font-color1);
   border: none;
 }
 
 .disclaimer-p {
-  max-width: 1000px;
+  max-width: 1000px !important;
 }

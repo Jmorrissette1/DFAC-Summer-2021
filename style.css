@@ -38,12 +38,13 @@ body {
   width: 100vw;
   height: 760px;
   background-image: url(https://di-uploads-pod14.dealerinspire.com/westhillsautoplex/uploads/2021/06/Hero-Image.png);
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .dfca-logo {
-  margin-top: 120px !important;
-  width: 800px !important;
+  margin-top: 145px !important;
+  width: 600px !important;
 }
 
 .dfca-h2 {
@@ -75,7 +76,7 @@ body {
   background-image: url(https://di-uploads-pod14.dealerinspire.com/westhillsautoplex/uploads/2021/06/Background.png);
   width: 100vw;
   height: auto;
-  background-size: contain;
+  background-size: cover;
 }
 
 .event-h2 {
@@ -122,7 +123,7 @@ body {
 }
 
 .about-text-box {
-  max-width: 1250px !important;
+  max-width: 1205px !important;
   margin-left: 110px !important;
 }
 
@@ -216,8 +217,16 @@ body {
     width: 300px;
   }
 
+  .event-h2{
+    font-size: 40px !important;
+    margin-right: 360px !important;
+  }
   .service-repair-img{
     width: 300px;
+  }
+  .event-info{
+    background-size: cover;
+    background-repeat: no-repeat;
   }
   .about-section {
     margin-top: 20px !important;
@@ -230,7 +239,17 @@ body {
     margin-bottom: 20px !important;
     width: 820px !important;
 }
-  
+
+  .event-p1{
+    margin-right: 265px !important;
+  }
+
+  .event-btn{
+    margin-right: 580px !important;
+  }
+    .about-h2{
+      
+    }
 
 }
 
@@ -258,9 +277,27 @@ body {
     width: 280px;
   }
 
+  .event-info{
+    background-image:  url(Donation-Background-T.png);
+    background-size: contain;
+  }
   .enter-to-win-img{
     margin-top: 55px !important;
-    width: 655px !important;
+    width: 720px !important;
+  }
+
+  .event-h2{
+    font-size: 38px !important;
+    margin-right: 290px !important;
+  }
+
+  .event-p1{
+    font-size: 22px !important;
+    margin-right: 356px !important;
+  }
+
+  .event-btn{
+    margin-right: 480px !important;
   }
 
 }

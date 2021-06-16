@@ -36,7 +36,7 @@ body {
 
 .hero-section {
   width: 100vw;
-  height: 760px !important;
+  height: 760px;
   background-image: url(https://di-uploads-pod14.dealerinspire.com/westhillsautoplex/uploads/2021/06/Hero-Image.png);
   background-size: cover;
 }
@@ -190,4 +190,77 @@ body {
 
 .disclaimer-p {
   max-width: 1000px !important;
+}
+
+
+@media only screen and (min-width: 1300px) and (max-width: 1500px) {
+
+  .hero-section {
+    width: 100vw;
+    height: 500px !important;
+    background-image: url(https://di-uploads-pod14.dealerinspire.com/westhillsautoplex/uploads/2021/06/Hero-Image.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  
+  .dfca-logo {
+    margin-top: 100px !important;
+    width: 420px !important;
+  }
+
+  .dfca-h2{
+    font-size: 40px !important;
+  }
+
+  .vehicle-purchase-img{
+    width: 300px;
+  }
+
+  .service-repair-img{
+    width: 300px;
+  }
+  .about-section {
+    margin-top: 20px !important;
+    background: url(https://di-uploads-pod14.dealerinspire.com/westhillsautoplex/uploads/2021/06/Background-about.png);
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+  }
+  .enter-to-win-img {
+    margin-top: 50px !important;
+    margin-bottom: 20px !important;
+    width: 820px !important;
+}
+  
+
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+  .hero-section {
+    width: 100vw;
+    height: 375px !important;
+    background-image: url(https://di-uploads-pod14.dealerinspire.com/westhillsautoplex/uploads/2021/06/Hero-Image.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .dfca-logo {
+    margin-top: 50px !important;
+    width: 400px !important;
+  }
+
+  .dfca-h2{
+    font-size: 35px !important;
+  }
+  .vehicle-purchase-img{
+    width: 280px;
+  }
+
+  .service-repair-img{
+    width: 280px;
+  }
+
+  .enter-to-win-img{
+    margin-top: 55px !important;
+    width: 655px !important;
+  }
+
 }

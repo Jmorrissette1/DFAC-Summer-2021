@@ -230,9 +230,10 @@ body {
   }
   .about-section {
     margin-top: 20px !important;
+    height: auto !important;
     background: url(https://di-uploads-pod14.dealerinspire.com/westhillsautoplex/uploads/2021/06/Background-about.png);
     background-repeat: no-repeat !important;
-    background-size: contain !important;
+    background-size: cover!important;
   }
   .enter-to-win-img {
     margin-top: 50px !important;
@@ -241,16 +242,41 @@ body {
 }
 
   .event-p1{
-    margin-right: 265px !important;
+    margin-right: 310px !important;
   }
 
   .event-btn{
-    margin-right: 580px !important;
+    margin-right: 560px !important;
   }
-    .about-h2{
-      
-    }
+  .about-text-box{
+    margin-left: 0 !important;
+  }
+  .about-h2{
+      font-size: 40px !important;
+      margin-left: 130px;
+  }
+  .about-p1{
+    max-width: 800px;
+    margin-left: 130px;
+  }
 
+  .about-p2{
+    max-width: 800px;
+    margin-left: 125px;
+  }
+  .about-p3{
+    max-width: 800px;
+    margin-left: 125px;
+    margin-bottom: 5px;
+  }
+
+  .about-list{
+    margin-left: 100px;
+  }
+
+  .about-p4{
+    margin-left: 125px;
+  }
 }
 
 @media only screen and (min-width: 1100px) and (max-width: 1299px) {
@@ -267,14 +293,14 @@ body {
   }
 
   .dfca-h2{
-    font-size: 35px !important;
+    font-size: 28px !important;
   }
   .vehicle-purchase-img{
-    width: 280px;
+    width: 260px;
   }
 
   .service-repair-img{
-    width: 280px;
+    width: 260px;
   }
 
   .event-info{
@@ -293,11 +319,176 @@ body {
 
   .event-p1{
     font-size: 22px !important;
-    margin-right: 356px !important;
+    margin-right: 390px !important;
   }
 
   .event-btn{
     margin-right: 480px !important;
   }
 
+  .about-h2{
+    font-size: 32px !important;
+    margin-left: 60px;
+  }
+
+  .about-text-box{
+    margin-left: 0 !important;
+  }
+
+  .about-p1{
+    max-width: 800px;
+    margin-left: 60px;
+    
+  }
+
+  .about-p2{
+   max-width: 800px;
+   margin-left: 60px;
+  }
+
+  .about-list-item{
+    margin-left: 60px;
+  }
+
+  .about-p3{
+
+    margin-left: 60px;
+    margin-bottom: 10px;
+  }
+
+  .about-p4{
+    margin-left: 60px;
+  }
+  
+  .footer-img{
+    width: 900px;
+  }
+}
+
+
+@media only screen and (min-width: 800px) and (max-width: 1080px){
+  .hero-section{
+    height: auto !important;
+  }
+
+  .dfca-logo{
+    margin-top: 20px !important;
+    width: 400px !important;
+  }
+
+  .dfca-h2{
+    font-size: 44px !important;
+  }
+  .vehicle-purchase-img{
+    width: 260px;
+  }
+
+  .service-repair-img{
+    width: 260px;
+  }
+
+  .enter-to-win-img{
+    width: 930px !important;
+  }
+
+  .event-h2{
+    margin-right: 370px !important;
+  }
+
+  .event-p1{
+    margin-right: 410px !important;
+  }
+
+  .event-btn{
+    margin-right: 668px !important;
+  }
+  
+  .about-text-box{
+    margin-left: 0 !important;
+  }
+  .about-h2{
+    font-size: 34px !important;
+    margin-right: 60px;
+  }
+  .about-p1{
+    max-width: 800px;
+  }
+
+  .about-p2{
+    max-width: 800px;
+  }
+  .footer-img{
+    width: 940px !important;
+  }
+  .disclaimer-p{
+    max-width:  950px !important;
+  }
+  
+  .inv-btn{
+    width: 280px !important;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 790px){
+
+  .dfca-logo{
+    margin-top: 40px !important;
+    width: 240px !important;
+  }
+
+  .hero-section{
+    height: auto;
+  }
+  .dfca-h2{
+    font-size: 20px !important;
+  }
+  
+  .vehicle-purchase-img{
+    width: 200px;
+  }
+
+  .service-repair-img{
+    width: 200px;
+  }
+
+  .enter-to-win-img{
+    max-width: 590px !important;
+  }
+
+  .event-h2{
+    font-size: 30px !important;
+    margin-right: 200px !important;
+  }
+
+  .event-p1{
+    font-size: 24px !important;
+    margin-right: 200px !important;
+  }
+
+  .event-btn{
+    margin-right: 325px !important;
+  }
+
+  .about-text-box{
+    margin-left: 60px !important;
+  }
+
+
+  .about-h2{
+    font-size: 22px !important;
+  }
+  .about-p1{
+    max-width: 600px;
+  }
+
+  .about-p2{
+    max-width: 500px;
+  }
+
+  .about-list-item{
+    max-width: 500px;
+  }
+
+  .footer-img{
+    width: 500px !important;
+  }
 }

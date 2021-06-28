@@ -187,6 +187,14 @@ body {
   font: 600;
   background-color: var(--font-color1);
   border: none;
+  text-decoration: none;
+}
+
+.event-btn:hover {
+  background-color: orange;
+}
+.inv-btn:hover {
+  background-color: orange;
 }
 
 .disclaimer-p {

@@ -1,5 +1,5 @@
 :root {
-  --font-color1: #0687ad;
+  --font-color1: #2c388e;
   --font-color2: #fff;
   font-family: roboto-slab, serif;
 }
@@ -117,19 +117,22 @@ body {
 
 .about-section {
   margin-top: 20px !important;
-  background: url(https://di-uploads-pod14.dealerinspire.com/westhillsautoplex/uploads/2021/06/Background-about.png);
+  height: auto;
+  background: url(https://di-uploads-pod5.dealerinspire.com/hondaofcasper/uploads/2021/07/HOC-About-US-Background-D.png);
   background-repeat: no-repeat !important;
   background-size: cover !important;
 }
 
 .about-text-box {
-  max-width: 1205px !important;
-  margin-left: 110px !important;
+  max-width: 1000px !important;
+  height: auto;
+
+  padding-bottom: 70px;
 }
 
 .about-h2 {
   text-transform: uppercase !important;
-  font-size: 48px !important;
+  font-size: 40px !important;
   letter-spacing: 7px !important;
   color: var(--font-color2) !important;
 }

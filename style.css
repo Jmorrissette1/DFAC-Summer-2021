@@ -1,5 +1,5 @@
 :root {
-  --font-color1: #0687AD;
+  --font-color1: #2C388E;
   --font-color2: #fff;
   font-family: roboto-slab, serif;
 }
@@ -66,14 +66,24 @@ body {
   margin-right: 50px !important;
 }
 
+.casper-enter-to-win{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
 .enter-to-win-img {
   margin-top: 70px !important;
-  margin-bottom: 20px !important;
-  width: 1100px !important;
+  margin-bottom: 2rem !important;
+}
+
+.enter-to-win-img-2{
+  margin-top: 5rem;
+  height: 180px;
 }
 
 .event-info {
-  background-image: url(https://di-uploads-pod14.dealerinspire.com/westhillsautoplex/uploads/2021/06/Background.png);
+  background-image: url(https://di-uploads-pod5.dealerinspire.com/hondaofcasper/uploads/2022/07/Adoption-Event-Background.png);
   width: 100vw;
   height: auto;
   background-size: cover;
